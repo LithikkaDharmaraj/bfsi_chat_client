@@ -1,8 +1,19 @@
-# bfsi-alpaca-dataset
+# BFSI Call Center AI Assistant
 
-This repository contains a curated BFSI (Banking, Financial Services, Insurance) conversation dataset in Alpaca format for training local AI assistants.
+📌 Project Overview
 
-## Dataset Details
-- **Format:** Alpaca (Instruction, Input, Output)
-- **Samples:** 150+ BFSI conversations
-- **Topics:** Loans, EMI, Interest Rates, Payment & Transactions, Customer Support
+The BFSI Call Center AI Assistant is a lightweight, compliant AI system designed to handle common customer queries in the Banking, Financial Services, and Insurance (BFSI) domain.
+
+Use cases:
+1. Semantic Retrieval (Sentence Transformers)
+2. Policy-Grounded RAG Architecture
+3. Local Small Language Model (SLM) via Ollama
+4. Controlled Prompt Engineering
+5. Threshold-Based Fallback Logic
+
+The system prioritizes:
+✅ Accuracy
+✅ Regulatory compliance
+✅ Deterministic responses
+✅ Local deployment
+✅ Controlled generation
