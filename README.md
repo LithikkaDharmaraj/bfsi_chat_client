@@ -108,5 +108,33 @@ SLM Example	  phi3:mini
 Similarity	  Cosine Similarity
 Data Format	  Alpaca
 
+📌 Project Structure
+
+main.py                     → Orchestrates full pipeline
+
+generate_embeddings.py      → Creates dataset embeddings
+
+prepare_rag_embedding.py    → Creates knowledge base embeddings
+
+rag_embedding_service.py    → Semantic retrieval logic
+
+prompt_builder.py           → Structured prompt construction
+
+slm_service.py              → Local model inference via Ollama
+
+similarity_check.py         → Dataset similarity evaluation
+
+knowledge_base.json         → Policy knowledge documents
+
+alpaca_bfsi_sample.json     → BFSI dataset
+
+📌 Outcome
+
+A modular, production-style AI assistant architecture demonstrating:
+1. RAG implementation
+2. Safe LLM deployment
+3. Semantic retrieval
+4. AI system design for regulated industries
+
 
 
