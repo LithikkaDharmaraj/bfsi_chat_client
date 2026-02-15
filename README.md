@@ -20,21 +20,7 @@ The assistant supports queries related to:
 
 📌 System Architecture
 
-User Query
-    ↓
-Query Embedding (all-mpnet-base-v2)
-    ↓
-Similarity Check Against Alpaca Dataset
-    ↓
-[Tier 1] Strong Match?
-    ├── YES → Return Stored Response
-    └── NO  → Local Fine-Tuned SLM
-                    ↓
-             [Tier 3] Complex Policy Query?
-                    ├── YES → RAG Retrieval Layer
-                    └── NO  → Direct SLM Response
-    ↓
-Final Response
+
 
 📌 Core Components
 
@@ -80,10 +66,11 @@ Provide grounded, policy-based responses.
 
 📌 Response Priority Logic
 
-Tier	  Condition	Action
-Tier 1	Strong dataset similarity	Return stored response
-Tier 2	No strong match	Generate via local SLM
-Tier 3	Complex financial query	Use RAG retrieval
+Tier 1 -- Strong dataset similarity	Return stored response
+
+Tier 2 -- Complex financial query -- Use RAG retrieval
+
+Tier 3 -- Generate via local SLM
 
 This ensures a safety-first design.
 
