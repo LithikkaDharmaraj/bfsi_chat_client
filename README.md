@@ -25,7 +25,7 @@ The assistant supports queries related to:
 📌 Core Components
 
 1️⃣ Dataset Layer (Primary Response Layer)
-1. 150+ BFSI conversation samples
+1. 200+ BFSI conversation samples
 2. Alpaca format (Instruction, Input, Output)
 3. Professional and compliant tone
 4. Embedded using all-mpnet-base-v2
