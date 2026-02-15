@@ -20,7 +20,7 @@ The assistant supports queries related to:
 
 📌 System Architecture
 
-
+![BFSI Call Center AI Assistant System Architecture](https://github.com/user-attachments/assets/776f2081-372f-4b7a-a4a3-59debe18e59f)
 
 📌 Core Components
 
